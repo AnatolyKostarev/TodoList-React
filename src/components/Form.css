@@ -1,0 +1,41 @@
+.add__purshase {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.add__purshase::after {
+  position: absolute;
+  content: "";
+  bottom: -24px;
+  left: 0;
+  height: 1px;
+  background: #ccc;
+  width: 100%;
+}
+
+.add__purhase-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.purshase {
+  width: 355px;
+  border: 1px solid rgba(206, 212, 218, 1);
+  border-radius: 4px;
+}
+
+.purshase:focus {
+  outline: 1px solid #000;
+}
+
+.delete__purshase {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 18px;
+}
+
+.added__purshases {
+  margin-top: 24px;
+  margin-bottom: 32px;
+}

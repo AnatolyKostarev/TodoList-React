@@ -1,0 +1,12 @@
+.task label {
+  margin-left: 10px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-group {
+  justify-content: space-between;
+}

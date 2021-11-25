@@ -1,0 +1,16 @@
+h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 70px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.todo__list {
+  margin: 0 auto;
+  padding: 24px;
+  width: 594px;
+  background: #fff;
+  border-radius: 10px;
+}
